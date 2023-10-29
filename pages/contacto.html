@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Consultorios | Salud Digital</title>   
+    
+    <!-- BOOTSSTRAP 5.0.2 CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- MI MODIFICADOR CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light" style="border-bottom: solid 1px lightgray">
+            <div class="container">
+                <a
+                    href="./index.html" class="navbar-brand h1" style="margin: 0">
+                    <img 
+                    class="d-inline-block align-content-center"
+                    src="../assets/img/logoHeader.png" alt="este es el logo del header señor" width="35" height="35">
+                    Los Consultorios | Salud Digital
+                </a>
+                <button 
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    class="navbar-toggler"
+                    aria-controls="navbar-nav"
+                    aria-expanded="false"
+                    aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse"
+                    id="navbarNav">
+                    <ul class="h6 navbar-nav mx-auto">
+                        <li class="navbarrita nav-item text-center mx-4">
+                            <a id="test" href="../index.html" class="nav-link">
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="navbarrita nav-item text-center mx-4">
+                            <a id="test" href="./info.html" class="nav-link">
+                                + Info
+                            </a>
+                        </li>
+                        <li class="navbarrita nav-item text-center mx-4">
+                            <a id="test" href="./profesionales.html" class="nav-link">
+                                Profesionales
+                            </a>
+                        </li>
+                        <li class="navbarrita nav-item text-center mx-4">
+                            <a id="test" href="./clientes.html" class="nav-link">
+                                Clientes
+                            </a>
+                        </li>
+                        <li class="navbarrita nav-item text-center mx-4">
+                            <a id="test" href="./contacto.html" class="nav-link btnActivo">
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+</header>
+
+<main>
+    <div class="form-area">
+        <div class="container">
+            <div class="row single-form g-0">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="left">
+                        <h2><span>Contactenos</span><br>Para mas INFO</h2>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 my-5">
+                    <div class="right">
+                        <i class="fa fa-caret-left"></i>
+                        <form>
+                            <div class="mb-3">
+                                <label for="inputEmail" class="form-label">Su Nombre</label>
+                                <input type="text" class="form-control" id="inputEmail" aria-describedby="emailAyuda">
+                                <div id="emailAyuda" class="form-text">Nunca compartiremos sus datos con nadie
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputPass1" class="form-label">Su dirección de m@ail
+                                </label>
+                                <input type="email" class="form-control" id="check1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensajito" class="form-label">Mensaje</label>
+                                <textarea type="email" class="form-control" id="inputpass1">
+                                </textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                Enviar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</main>
+
+<footer>
+    <img src="../assets/img/logoFooter.png" alt="logo de los consultorios señor" class="logo-footer">
+    <div class="contenedor-redes-sociales">
+        <a href="https://www.fb.com/damianerx" target="_blank" class="icono-social"></a>
+        <a href="https://www.twitter.com/deimianerx" target="_blank" class="icono-social"></a>
+        <a href="https://www.linkedin.com/damianerx" target="_blank" class="icono-social"></a>
+    </div>
+    <ul class="footer-menu-container">
+        <li class="menu-item">Sarasa 01</li>
+        <li class="menu-item">Sarasa 02</li>
+        <li class="menu-item">Sarasa 03</li>
+    </ul>
+    <span class="entrega">Pre Entrega 2 | 28 de octubre 2023<br>Damián Erxilapé</span>
+</footer>
+
+    <!-- BOOTSTRAP 5.0.2 JS -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

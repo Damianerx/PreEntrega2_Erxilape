@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+html {
+    height: 100%;
+    position: relative;
+}
+
+header{
+    position: fixed;
+    margin-top: 0;
+}
+
+#test{
+    color: gray;
+}
+
+#test:hover{
+    color: white;
+}
+
+.navbarrita:hover{
+    padding: 5px 10px;
+    background-color: rgb(109, 145, 215);
+    border-radius: 7.5px;
+}
+
+.btnActivo{
+    background-color: rgb(109, 145, 215);
+    color: white!important;
+    border-radius: 7.5px;
+}
+
+#up-var{
+    height: 50px;
+}
+
+body{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.form-area{
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.single-form{
+    box-shadow: 0 2px 20px -5px rgb(0,0,0,0.5);
+}
+
+.left{
+    background-color:rgb(109, 145, 215) ;
+    padding: 200px 98px;
+    h2 span{
+        font-weight: 100;
+    }
+}
+
+.right{
+    padding: 70px 100px;
+    position: relative;
+    i{
+        position: relative;
+        font-size: 80px;
+        left: -27px;
+        top: 40%;
+        color: white ;
+    }
+    button{
+        border: none;
+        border-radius: 0;
+        padding: 15px;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+
+.form-control{
+    border: 2px solid black;
+
+}
+
+.iconos-redes-cards a{
+    text-decoration: none;
+}
+
+footer{
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* FORMATO DEL LOGO DEL FOOTER */
+.logo-footer{
+    height: 55px;
+    margin-bottom: 1rem;
+}
+
+
+/* FORMATO DEL CONTAINER DEL FOOTER Y DEL CONTENEDOR DE LOS ENLACES DEL FOOTER */
+.contenedor-redes-sociales,
+.footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+/* FORMATO ICONOS REDES SOCIALES */
+.icono-social{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #cccccc;
+    background-image: url(../assets/img/fb-logo.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+/* AL PASAR EL MOUSE SOBRE LOS ICONOS DE REDES */
+.icono-social:hover{
+    background-color: black;
+    filter: invert(1);
+}
+
+/* SEGUNDO ICONO DE RED SOCIAL */
+.icono-social:nth-of-type(2){
+    background-image: url(../assets/img/x-logo.png);
+}
+
+/* TERCER ICONO DE RED SOCIAL */
+.icono-social:nth-of-type(3){
+    background-image: url(../assets/img/lk-logo.png);
+}
+
+/* CONTENEDOR DEL FOOTER */
+.footer-menu-container{
+    list-style-type: none;
+    color: rgb(98, 98, 99);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* FORMATO DE LOS LINKS DEL FOOTER */
+.menu-item{
+    margin: 1rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/* SE OSCURECEN LOS LINKS DEL FOOTER */
+.menu-item:hover{
+    opacity: 1;
+}
+
+/* FORMATO DEL PIE DE PAGINA */
+.entrega{
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tarjetita{
+    margin-bottom: 50px !important;
+    border-radius: 7.5px !important;
+    
+}
