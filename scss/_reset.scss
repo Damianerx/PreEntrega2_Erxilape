@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+html {
+    height: 100%;
+    position: relative;
+}
+
+body{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer{
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: $c-gris;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

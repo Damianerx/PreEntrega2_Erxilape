@@ -1,0 +1,23 @@
+.navbarrita:hover{
+    padding: 5px 10px;
+    background-color: $c-celeste;
+    border-radius: $s-q;
+}
+
+.btnActivo{
+    background-color: $c-celeste;
+    color: white!important;
+    border-radius: $s-q;
+}
+
+#test{
+    color: gray;
+}
+
+#test:hover{
+    color: white;
+}
+
+#up-var{
+    height: 50px;
+}

@@ -1,0 +1,75 @@
+.iconos-redes-cards a{
+    text-decoration: none;
+}
+
+/* FORMATO DEL LOGO DEL FOOTER */
+.logo-footer{
+    height: 55px;
+    margin-bottom: 1rem;
+}
+
+/* FORMATO DEL CONTAINER DEL FOOTER Y DEL CONTENEDOR DE LOS ENLACES DEL FOOTER */
+.contenedor-redes-sociales,
+.footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+/* FORMATO ICONOS REDES SOCIALES */
+.icono-social{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #cccccc;
+    background-image: url(../assets/img/fb-logo.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+/* AL PASAR EL MOUSE SOBRE LOS ICONOS DE REDES */
+.icono-social:hover{
+    background-color: black;
+    filter: invert(1);
+}
+
+/* SEGUNDO ICONO DE RED SOCIAL */
+.icono-social:nth-of-type(2){
+    background-image: url(../assets/img/x-logo.png);
+}
+
+/* TERCER ICONO DE RED SOCIAL */
+.icono-social:nth-of-type(3){
+    background-image: url(../assets/img/lk-logo.png);
+}
+
+/* CONTENEDOR DEL FOOTER */
+.footer-menu-container{
+    list-style-type: none;
+    color: $c-gris;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* FORMATO DE LOS LINKS DEL FOOTER */
+.menu-item{
+    margin: 1rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/* SE OSCURECEN LOS LINKS DEL FOOTER */
+.menu-item:hover{
+    opacity: 1;
+}
+
+/* FORMATO DEL PIE DE PAGINA */
+.entrega{
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
