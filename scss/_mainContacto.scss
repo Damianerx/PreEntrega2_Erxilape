@@ -41,10 +41,20 @@
 
 }
 
-.btn-erx{
+.btn-erx-00{
+    border-radius: 15px;
+    width: 250px;
+    background-color: aqua;
+    color: black;
+    font-weight: 500;
+}
+
+/* EXTEND CLASS BTN-erx-00 */
+.btn-erx{ 
+    @extend btn-erx-00;
     border-radius: $s-q !important;
     width: 250px;
     background-color: $c-celeste;
     color: white;
-    font-weight: bolder;
+    font-weight: map-get($f-grosa, grone);
 }

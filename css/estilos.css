@@ -1,3 +1,4 @@
+/* MAPA GROSOR FUENTES */
 .navbarrita:hover {
   padding: 5px 10px;
   background-color: rgb(109, 145, 215);
@@ -101,12 +102,21 @@ header {
   border: 2px solid black;
 }
 
+/*.btn-erx-00{
+    border-radius: 15px;
+    width: 250px;
+    background-color: aqua;
+    color: black;
+    font-weight: 500;
+}*/
+/* EXTEND CLASS BTN-erx-00 */
 .btn-erx {
+  /*@extend btn-erx-00;*/
   border-radius: 7.5px !important;
   width: 250px;
   background-color: rgb(109, 145, 215);
   color: white;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 .tarjetita {
