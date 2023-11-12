@@ -51,7 +51,7 @@
 
 /* EXTEND CLASS BTN-erx-00 */
 .btn-erx{ 
-    @extend btn-erx-00;
+    @extend .btn-erx-00;
     border-radius: $s-q !important;
     width: 250px;
     background-color: $c-celeste;
