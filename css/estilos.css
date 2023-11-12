@@ -1,3 +1,27 @@
+.navbarrita:hover {
+  padding: 5px 10px;
+  background-color: rgb(109, 145, 215);
+  border-radius: 7.5px;
+}
+
+.btnActivo {
+  background-color: rgb(109, 145, 215);
+  color: white !important;
+  border-radius: 7.5px;
+}
+
+#test {
+  color: gray;
+}
+
+#test:hover {
+  color: white;
+}
+
+#up-var {
+  height: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -52,7 +76,7 @@ header {
   font-weight: 100;
 }
 
-.right {
+.right { /*NESTING*/
   padding: 70px 100px;
   position: relative;
 }
@@ -164,28 +188,4 @@ header {
   color: red;
   font-weight: 700;
   text-align: center;
-}
-
-.navbarrita:hover {
-  padding: 5px 10px;
-  background-color: rgb(109, 145, 215);
-  border-radius: 7.5px;
-}
-
-.btnActivo {
-  background-color: rgb(109, 145, 215);
-  color: white !important;
-  border-radius: 7.5px;
-}
-
-#test {
-  color: gray;
-}
-
-#test:hover {
-  color: white;
-}
-
-#up-var {
-  height: 50px;
 }/*# sourceMappingURL=estilos.css.map */
